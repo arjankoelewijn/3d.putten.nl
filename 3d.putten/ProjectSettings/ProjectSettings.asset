@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Gemeente Utrecht
-  productName: 3D Utrecht
+  productName: 3D Putten
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -135,8 +135,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 
-  preloadedAssets:
-  - {fileID: 11400000, guid: d5f272a8231831941994b3ff3281aa1d, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -156,7 +155,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.Gemeente-Amsterdam.3D-Amsterdam
+    Standalone: com.Gemeente-Utrecht.3D-Putten
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -270,7 +269,14 @@ PlayerSettings:
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 943deaaee9c9347e0a455aa208526c42, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: Android
     m_Icons:
@@ -873,9 +879,13 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     Analytics: 0
-    Build: 1
+    Build: 0
     Collab: 0
+    Game Performance: 0
+    Purchasing: 0
+    UDP: 0
     UNet: 1
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -890,15 +900,15 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 3af3d3a2-3882-4600-8a6a-b392403e1cf6
+  cloudProjectId: c610d83c-5035-4e8a-b00a-8a5dd7c1b19d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames:
   - Lowest
   - Low
   - Medium
   - High
-  projectName: 3D Amsterdam
-  organizationId: gemeente-amsterdam-3d
+  projectName: 3D Putten
+  organizationId: gemeente-utrecht
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
